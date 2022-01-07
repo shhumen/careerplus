@@ -1,0 +1,530 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mt-6 {
+    margin-top: 85px;
+}
+
+
+/* HEADER */
+
+nav {
+    margin-bottom: 66px;
+}
+
+.navbar-nav {
+    margin-left: 300px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-item button {
+    font-size: 13px;
+    height: 42px;
+    width: 120px;
+    border-radius: 8px;
+    color: white;
+    background-color: #5311B2;
+}
+
+.nav-item button:hover {
+    color: #E99A00;
+}
+
+.item button {
+    background: #E99A00;
+}
+
+#header .item img {
+    width: 100%;
+    height: auto;
+}
+
+#header .dropdown {
+    border: 1px solid #5311B2;
+    border-radius: 10px;
+}
+
+#header .dropdown img {
+    width: 35px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#header_bottom .item {
+    width: 100%;
+    height: auto;
+    /* padding: 40px 40px; */
+    border-radius: 12px;
+    background: #5311B2E5;
+}
+
+.item button {
+    background: #E99A00;
+}
+
+#header_bottom .item h1 i {
+    color: #E99A00;
+}
+
+#header_bottom .item h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    margin: 86px 0 0 60px;
+}
+
+#header_bottom .item p {
+    font-weight: 500;
+    color: white;
+    margin: 20px 0 0 60px;
+}
+
+#header_bottom .item button {
+    height: 48px;
+    width: 154px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    color: white;
+    margin: 60px 0 90px 60px;
+}
+
+
+/* Articles start */
+
+#articles {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+#articles a h1:hover {
+    color: #E99A00;
+}
+
+#articles a,
+#mentors a,
+#gallery a {
+    text-decoration: none;
+}
+
+#articles h1,
+#mentors h1,
+#gallery h1 {
+    text-align: center;
+    color: #5311B2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#articles p,
+#mentors p,
+#gallery p {
+    text-align: center;
+    color: #575757;
+}
+
+
+/* articles end */
+
+
+/* CardBox start */
+
+#cardBox .card-item {
+    width: 95%;
+    height: auto;
+    background: #CACACA80;
+    padding: 20px 20px;
+    border-radius: 8px;
+}
+
+#cardBox .card-item button {
+    width: 60px;
+    height: 22px;
+    color: white;
+    font-size: 10px;
+    background-color: #6429BA;
+    border-radius: 12px;
+}
+
+#cardBox .card-item .cardBody img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#cardBox .card-item .cardTitle {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+
+#cardBox .card-item .cardLink a {
+    text-decoration: none;
+    color: #6429BA;
+}
+
+#cardBox .card-item .cardLink {
+    text-align: end;
+}
+
+.slick-next,
+.slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: 0;
+    background: 0 0;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* CardBox end */
+
+
+/* MENTOR INFO START  */
+
+#mentors a h1:hover {
+    color: #E99A00;
+}
+
+#mentorInfo ._name {
+    margin-top: 156px;
+}
+
+#mentorInfo ._name h3 {
+    font-weight: 600;
+}
+
+#mentorInfo ._name p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#mentorInfo button {
+    margin-top: 54px;
+    background-color: white;
+    border: 2px solid #6429BA;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#mentorInfo button i {
+    font-size: 16px;
+    color: #6429BA;
+}
+
+#mentorInfo button i span {
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#mentorInfo ._photo {
+    margin-top: 60px;
+}
+
+#mentorInfo ._photo img {
+    float: right;
+}
+
+
+/* MENTOR INFO END */
+
+
+/*  GALLERY START */
+
+#gallery {
+    margin-top: 85px;
+}
+
+.galleryPhoto img {
+    width: 95%;
+    height: auto;
+}
+
+
+/* GALLERY END */
+
+
+/* CONTACT US START */
+
+#contact_us .contactItem {
+    width: 100%;
+    height: auto;
+    background: #5311B2E5;
+    border-radius: 12px 12px 0 0;
+    align-items: center;
+}
+
+#contact_us .contactItem h3 {
+    margin: 90px 60px;
+    font-weight: 600;
+    color: white;
+}
+
+#contact_us .contactItem h3 i {
+    color: #E99A00;
+}
+
+#contact_us .contactItem .contact-btn button {
+    background: transparent;
+    border: 2px solid #c8c8c8;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+#contact_us .contactItem .contact-btn button i {
+    margin: 0 10px 0 0;
+    font-size: 20px;
+}
+
+hr {
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 1;
+    padding: 0 !important;
+    background: #E99A00;
+    margin: 0;
+}
+
+hr:not([size]) {
+    height: 22px;
+}
+
+#contact_us ._contactItem {
+    width: 100%;
+    height: auto;
+    background: #5311B2E5;
+    border-radius: 0 0 12px 12px;
+}
+
+#contact_us .contact_content h3 {
+    margin: 78px 0 0 60px;
+    font-weight: 600;
+    color: white;
+}
+
+#contact_us .contact_content p {
+    margin: 40px 0 0 60px;
+    color: white;
+    font-size: 16px;
+}
+
+#contact_us .contact_social {
+    margin: 40px 0 40px 60px;
+}
+
+#contact_us .contact_social div {
+    color: white;
+}
+
+.contact_social .social-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact_social .radius-i {
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    background-color: #E99A00;
+    text-align: center;
+    margin: 10px 10px 0 0;
+}
+
+.contact_social .social-item span {
+    margin-top: 10px;
+}
+
+
+/* CONTACT US FORM */
+
+._form {
+    padding: 0;
+}
+
+._form .name_form {
+    float: left;
+    margin: 55px 35px 15px 0;
+}
+
+._form input[type="text" i] {
+    padding: 10px !important;
+}
+
+._form .name_form input {
+    width: 240px;
+    height: 50px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #eee;
+}
+
+._form .name_form p,
+._form .mail_form p,
+._form .message p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+._form .mail_form input {
+    width: 515px;
+    height: 50px;
+    border-style: none;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+._form .message {
+    margin-top: 15px;
+}
+
+._form .message input {
+    width: 515px;
+    height: 150px;
+    border-style: none;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+._form .send-btn button {
+    color: white;
+    font-size: 14px;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid white;
+    margin: 22px 0 56px 0;
+    width: 170px;
+    height: 41px;
+    border-radius: 6px;
+}
+
+@media (max-width:991px) {
+    ._form .name_form {
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+    .contactItem .contact-btn {
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width:1200px) {
+    ._form .mail_form input,
+    ._form .message input {
+        width: 240px;
+    }
+    ._form .mail_form,
+    ._form .message,
+    ._form .send-btn {
+        text-align: center;
+        float: none;
+    }
+}
+
+
+/* CONTACT US END */
+
+
+/* FOOTER START  */
+
+#footer {
+    width: 100%;
+    height: auto;
+    background: #5311B2E5;
+}
+
+#footer ._footerItems {
+    margin-top: 50px;
+}
+
+#footer ._footerItems img {
+    width: 295px;
+    height: 46px;
+    margin-left: 60px;
+}
+
+#footer .footerNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footerNav .footerItem {
+    width: 33%;
+    float: left;
+    padding: 10px 0;
+}
+
+#footer .footerNav .footerItem a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+#footer .footerNav .footerItem a:hover {
+    color: #E99A00;
+}
+
+#footer ._small {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#footer ._small ._foot {
+    margin-bottom: 10px;
+}
+
+#footer ._small small {
+    color: white;
+    font-size: 13px;
+}
+
+#footer ._small small a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer ._small small a:hover {
+    color: #E99A00;
+}
+
+
+/* FOOTER END  */

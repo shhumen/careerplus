@@ -1,0 +1,252 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mt-6 {
+    margin-top: 85px;
+}
+
+
+/* HEADER START */
+
+nav {
+    margin-bottom: 66px;
+}
+
+.navbar-nav {
+    margin-left: 300px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-item button {
+    font-size: 13px;
+    height: 42px;
+    width: 120px;
+    border-radius: 8px;
+    color: white;
+    background-color: #5311B2;
+}
+
+#header .item img {
+    width: 100%;
+    height: auto;
+}
+
+#header .dropdown {
+    border: 1px solid #5311B2;
+    border-radius: 10px;
+}
+
+#header .dropdown img {
+    width: 35px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+/* HEADER END */
+
+
+/* ARTICLE TOP START */
+
+#articleTop ._author {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#articleTop ._author small {
+    font-size: 12px;
+}
+
+#articleTop ._author p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#articleTop ._text button {
+    color: white;
+    font-size: 10px;
+    background-color: #6429BA;
+    border-radius: 12px;
+}
+
+#articleTop ._text .headText {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#articleTop ._text .inlineText {
+    font-size: 16px;
+    color: #292219;
+}
+
+#articleTop ._text img {
+    width: 100%;
+    height: auto;
+}
+
+#articleTop ._text small {
+    font-size: 10px;
+    color: #94908C;
+}
+
+#articleTop ._text .articleContent {
+    font-size: 13px;
+    color: #292219;
+}
+
+#articleTop .other a img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#articleTop .other small {
+    font-size: 12px;
+    color: #292219;
+}
+
+#articleTop .other p {
+    font-size: 14px;
+    color: #292219;
+}
+
+
+/* ARTICLE TOP END */
+
+
+/* ARTICLE BOTTOM START  */
+
+#articleBottom {
+    margin-top: 40px;
+}
+
+#articleBottom img {
+    float: right;
+    border-radius: 50%;
+}
+
+#articleBottom small {
+    font-size: 13px;
+    color: darkgray;
+    font-weight: 700;
+}
+
+#articleBottom h5 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#articleBottom p {
+    font-size: 13px;
+}
+
+#articleBottom button {
+    /* margin-top: 54px; */
+    background-color: white;
+    border: 2px solid #6429BA;
+    height: 30px;
+    width: 110px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#articleBottom button i {
+    font-size: 15px;
+    color: #6429BA;
+}
+
+#articleBottom button i span {
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+/* ARTICLE BOTTOM END */
+
+
+/* FOOTER START  */
+
+#footer {
+    width: 100%;
+    height: auto;
+    background: #5311B2E5;
+}
+
+#footer ._footerItems {
+    margin-top: 50px;
+}
+
+#footer ._footerItems img {
+    width: 295px;
+    height: 46px;
+    margin-left: 60px;
+}
+
+#footer .footerNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footerNav .footerItem {
+    width: 33%;
+    float: left;
+    padding: 10px 0;
+}
+
+#footer .footerNav .footerItem a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+#footer .footerNav .footerItem a:hover {
+    color: #E99A00;
+}
+
+#footer ._small {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#footer ._small ._foot {
+    margin-bottom: 10px;
+}
+
+#footer ._small small {
+    color: white;
+    font-size: 13px;
+}
+
+#footer ._small small a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer ._small small a:hover {
+    color: #E99A00;
+}
+
+#footer hr {
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 1;
+    padding: 0 !important;
+    background: #E99A00;
+    margin: 0;
+}
+
+#footer hr:not([size]) {
+    height: 22px;
+}
+
+
+/* FOOTER END  */

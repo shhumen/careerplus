@@ -1,0 +1,270 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mt-6 {
+    margin-top: 85px;
+}
+
+
+/* HEADER START */
+
+nav {
+    margin-bottom: 66px;
+}
+
+.navbar-nav {
+    margin-left: 300px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-item button {
+    font-size: 13px;
+    height: 42px;
+    width: 120px;
+    border-radius: 8px;
+    color: white;
+    background-color: #5311B2;
+}
+
+#header .item img {
+    width: 100%;
+    height: auto;
+}
+
+#header .dropdown {
+    border: 1px solid #5311B2;
+    border-radius: 10px;
+}
+
+#header .dropdown img {
+    width: 35px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#header_bottom .item {
+    width: 100%;
+    height: auto;
+    /* padding: 40px 40px; */
+    border-radius: 12px;
+    background: #5311B2E5;
+}
+
+#header_bottom .item ._bottom {
+    margin-bottom: 80px;
+}
+
+#header_bottom .item h1 i {
+    color: #E99A00;
+}
+
+#header_bottom .item h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    margin: 86px 0 0 60px;
+}
+
+#header_bottom .item p {
+    font-weight: 500;
+    color: white;
+    margin: 20px 0 0 60px;
+}
+
+
+/* MENTOR INFO START  */
+
+#mentors h1,
+#coaching h1 {
+    text-align: center;
+    color: #5311B2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#mentors p,
+#coaching p {
+    text-align: center;
+    color: #575757;
+}
+
+#mentorInfo ._name {
+    margin-top: 156px;
+}
+
+#mentorInfo ._name h3 {
+    font-weight: 600;
+}
+
+#mentorInfo ._name p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#mentorInfo button {
+    margin-top: 54px;
+    background-color: white;
+    border: 2px solid #6429BA;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#mentorInfo button i {
+    font-size: 16px;
+    color: #6429BA;
+}
+
+#mentorInfo button i span {
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#mentorInfo ._photo {
+    margin-top: 60px;
+}
+
+#mentorInfo ._photo img {
+    float: right;
+}
+
+
+/* MENTOR INFO END */
+
+
+/* COACHING START  */
+
+#coachingInfo .coachingItem {
+    width: 100%;
+    height: auto;
+    background: #5311B2E5;
+    border-radius: 12px 12px 0 0;
+    align-items: center;
+}
+
+._coachingItem {
+    width: 100%;
+    height: auto;
+    background: #5311B2E5;
+    border-radius: 0 0 12px 12px;
+}
+
+._coachingItem img {
+    width: 450px;
+    height: 426px;
+}
+
+hr {
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 1;
+    padding: 0 !important;
+    background: #E99A00;
+    margin: 0;
+}
+
+hr:not([size]) {
+    height: 22px;
+}
+
+#coachingInfo p {
+    color: white;
+    float: right;
+}
+
+#coachingInfo img {
+    margin-top: 40px;
+    width: 253px;
+    height: 290px;
+}
+
+
+/* COACHING END */
+
+
+/* FOOTER START  */
+
+#footer {
+    width: 100%;
+    height: auto;
+    background: #5311B2E5;
+}
+
+#footer ._footerItems {
+    margin-top: 50px;
+}
+
+#footer ._footerItems img {
+    width: 295px;
+    height: 46px;
+    margin-left: 60px;
+}
+
+#footer .footerNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footerNav .footerItem {
+    width: 33%;
+    float: left;
+    padding: 10px 0;
+}
+
+#footer .footerNav .footerItem a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+#footer .footerNav .footerItem a:hover {
+    color: #E99A00;
+}
+
+#footer ._small {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#footer ._small ._foot {
+    margin-bottom: 10px;
+}
+
+#footer ._small small {
+    color: white;
+    font-size: 13px;
+}
+
+#footer ._small small a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer ._small small a:hover {
+    color: #E99A00;
+}
+
+#footer hr {
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 1;
+    padding: 0 !important;
+    background: #E99A00;
+    margin: 0;
+}
+
+#footer hr:not([size]) {
+    height: 22px;
+}
+
+
+/* FOOTER END  */
